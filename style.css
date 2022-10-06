@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+}
+#wrapper{
+    width: 960px;
+    margin: 0 auto; /*agar wrapper tetap berada ditengah */
+}
+#header{
+    width: 100%;
+    height: 140px;
+    background-color: gold;
+    margin-bottom: 10px;
+    border: 5px aquamarine groove;
+}
+#header h1{
+    margin-bottom: 100px;
+}
+#header img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+#content{
+    padding: 20px;
+    background-color: gray;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+#artikel h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#artikel img{
+    border: 5px groove violet;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+}
+#artikel{
+    width: 600px;   
+    height: 720px;
+    float: left;
+    background-color: blue;
+    border: 5px groove aquamarine;
+}
+#artikel p{
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+}
+#frame-sidebar{
+    width: 300px;
+    height: 440px;
+    float: right;
+    background-color: blue;
+}
+#frame-sidebar img{
+    width: 150px;
+    height: 100px;
+}
+.sidebar{
+    border: 4px green groove;
+    color: white;
+    font-weight: bold;
+}
+.sidebar img{
+    border: 3px groove violet;
+}
+#footer{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+}
+#footer p{
+    padding-top: 15px;
+    color: red;
+}
+#form{
+    padding-top: 20px;
+    width: 600px;
+    background-color: burlywood;
+    border: groove aquamarine 4px;
+}
